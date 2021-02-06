@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     try {
                         FileOutputStream fOut=openFileOutput(file, MODE_PRIVATE);
-                        data = "Pranitha \n17wh1a1252 Pranitha\nPranitha 1252\n";
+                        data = "Indraja \n17wh1a1256 Indraja\nIndraja 1256\n";
                         fOut.write(data.getBytes());
 
 
